@@ -6,7 +6,7 @@ Packages used :
 
 Kingfisher - This is used for image caching
 
-Architexture :
+Architecture :
 
 I used Clean architecture for this demo.
 
