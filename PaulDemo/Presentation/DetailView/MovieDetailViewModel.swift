@@ -43,8 +43,8 @@ public class MovieDetailViewModel: ObservableObject {
     }
     
     private func handleError(_ error: Error) {
-        if let networkError2 = error as? NetworkError {
-            switch networkError2 {
+        if let networkError = error as? NetworkError {
+            switch networkError {
             case .invalidURL:
                 self.errorMessage = "Invalid URL"
             case .noData:

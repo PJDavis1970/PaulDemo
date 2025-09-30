@@ -33,9 +33,29 @@
 		FD5267792E89358600D4D18C /* PaulDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PaulDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		FD5268592E8B521500D4D18C /* Exceptions for "PaulDemo" folder in "PaulDemoTests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Data/Sevices/API/MovieResponse.swift,
+				Data/Sevices/API/NetworkError.swift,
+				Data/Sevices/Services.swift,
+				Domain/Entities/MovieDetail.swift,
+				Domain/Entities/Movies.swift,
+				Domain/RepositoryProtocols/MovieRepository.swift,
+				Domain/UseCases/GetMovieDetailUseCase.swift,
+				Presentation/DetailView/MovieDetailViewModel.swift,
+			);
+			target = FD52676E2E89358600D4D18C /* PaulDemoTests */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		FD52675F2E89358400D4D18C /* PaulDemo */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				FD5268592E8B521500D4D18C /* Exceptions for "PaulDemo" folder in "PaulDemoTests" target */,
+			);
 			path = PaulDemo;
 			sourceTree = "<group>";
 		};
