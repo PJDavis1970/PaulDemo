@@ -2,7 +2,13 @@
 
 Just download the project and run in xcode.
 
-Packages
+Packages used :
 
-Kingfisher : This is used for image caching
+Kingfisher - This is used for image caching
+
+Architexture :
+
+I used Clean architecture for this demo.
+
+
 
